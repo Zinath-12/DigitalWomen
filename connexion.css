@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 *{
     margin: 0;
@@ -7,18 +7,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: url(./image/connexion-photo.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+p {
+    line-height: 1.5;
 }
-/* header {
-    background-color: white;
-    color: black;
+
+
+
+
+
+header {
+    /* background-color: white; */
+    color: rgb(15, 1, 1);
 
 }
 
@@ -54,50 +55,36 @@ nav ul li {
 .logo p {
     padding: 16px;
     color: #F29200;
-} */ 
+    font-weight: bold;
+}
 
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.background{
+    background-image: url(./image/connexion-photo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .box {
+    margin: auto;
     position:relative ;
     width: 380px;
     height: 400px;
-    background: white;
     border-radius: 8px;
     overflow: hidden;
 }
 
-.box::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 380px;
-    height: 400px;
-    background: linear-gradient(0deg, transparent, #F29200,#F29200);
-    transform-origin: bottom right;
-    animation: animate 6s linear infinite;
-}
-.box::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 380px;
-    height: 420px;
-    background: linear-gradient(0deg, transparent, #F29200,#F29200);
-    transform-origin: bottom right;
-    animation: animate 6s linear infinite;
-    animation-delay: -3s;
-}
-
-@keyframes animate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 .form {
     position: absolute;
