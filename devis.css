@@ -1,0 +1,74 @@
+body{
+    background-image: url(./image/adresse.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.ensemble .container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.container{
+    width: 80vw;
+    margin: 0px auto;
+}
+
+.contact{
+    background: #F29200;
+    width: 500px;
+    padding: 20px;
+    
+}
+
+form{
+    width: 500px;
+    padding: 20px;
+    /* margin: auto; */
+    /* background: #EBEBEB; */
+    font-size: 20px;
+   
+}
+input{
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom:1px solid #F29200;
+    background: none;
+    color: white;
+
+}
+
+
+input [type=text] {
+    width: 100%;
+    padding: 5px;
+    
+    font-size: 17px;
+    
+    
+}
+
+input [type=submit] {
+    padding: 16px;
+    font-size: 18px;
+}
+
+.btn {
+    border: 1px solid #F29200;
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+textarea {
+    background: #EBEBEB;
+    width: 500px;
+    font-size: 20px;
+    margin: 24px 0px;
+    outline: none;
+    border: 1px solid #F29200;
+}

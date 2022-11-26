@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: white;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+
+
+
+header {
+    background-color: white;
+    color: black;
+
+}
+
+.container {
+    width: 80vw;
+    margin: 0px auto;
+
+
+
+
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 12px;
+    color: black;
+}
+
+.logo p {
+    padding: 16px;
+    color: #F29200;
+}
+
+
+.couverture {
+    background-image: url(./image/strategie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100px; */
+}
+
+.herosection {
+    height: 85vh;
+}
+
+.usp {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.usp h1 {
+    color: #F29200;
+    font-size: 7em;
+    padding-bottom: 32px;
+}
+
+.usp p {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+
+
+  .entreprise .container {
+    display: flex;
+    flex-direction: row;
+    /* margin: 15px 0px; */
+    padding: 80px 0px;
+    text-align: justify;
+    gap: 15px;
+}
+
+.entreprise .container .description {
+    width: 70%; 
+}
+
+.entreprise .container .description h2 {
+    color: #000000;
+    font: 400;
+    margin-bottom: 70px;
+}
+
+.entreprise .container .description div {
+    color: black;
+    font: 19px;
+    margin: 40px 0px;
+}
+
+.entreprise .container .description .one,
+.two,
+.three {
+    color: #000000;
+    margin: 25px 0px;
+}
+
+.entreprise .container .description div a {
+    color: #F29200;
+    text-decoration: none;
+}
+
+.entreprise .container .photo {
+    width: 30%;
+    
+}
+
+.entreprise .container .photo h1{
+    padding: 80px 0px 80px 80px;
+    color: #F29200;
+    font-size: 3rem;
+    
+}
+
+.entreprise .container .photo p{
+      text-align: center;
+      padding: 0px 0px 80px 80px;
+      color: #747474;
+      font-size: 1em;
+}
+
+.entreprise .container {
+    display: flex;
+    flex-direction: row;
+    /* margin: 15px 0px; */
+    padding: 80px 0px;
+    text-align: justify;
+}
+
+.entreprise .container .description h2 {
+    color: #000000;
+    font: 400;
+    margin-bottom: 70px;
+}
+
+.entreprise .container .description div {
+    color: #747474;
+    font: 19px;
+    margin: 40px 0px;
+}
+
+.entreprise .container .description .one,
+.two,
+.three {
+    color: #000000;
+    margin: 25px 0px;
+}
+
+.entreprise .container .description .two a {
+    color: #F29200;
+    text-decoration: none;
+}
+
+.entreprise .container .description button {
+    margin: 0px 0px;
+    padding: 18px 39px;
+    background-color: #F29200;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.entreprise .container .description button:hover {
+    background-color: #747474;
+    color: #000000;
+}
+ 

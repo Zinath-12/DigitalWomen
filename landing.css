@@ -1,0 +1,467 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: white;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+
+
+
+header {
+    background-color: white;
+    color: black;
+
+}
+
+.container {
+    width: 80vw;
+    margin: 0px auto;
+
+
+
+
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 12px;
+    color: black;
+}
+
+.logo p {
+    padding: 16px;
+    color: #F29200;
+}
+
+
+.couverture {
+    background-image: url(./image/photo2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.herosection {
+    height: 85vh;
+}
+
+.usp {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.usp h1 {
+    color: #F29200;
+    font-size: 7em;
+    padding-bottom: 32px;
+}
+
+.usp p {
+    color: white;
+    font-weight: bold;
+
+}
+
+.usp a {
+    /* border: 1px solid white; */
+    border-radius: 8px;
+    color: black;
+    padding: 16px 32px;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #F29200;
+    margin-top: 16px;
+    text-decoration: none;
+
+}
+
+.usp a:hover {
+    background-color: black;
+    color: #F29200;
+}
+
+  .entreprise .container {
+    display: flex;
+    flex-direction: row;
+    /* margin: 15px 0px; */
+    padding: 80px 0px;
+    text-align: justify;
+}
+
+.entreprise .container .description h2 {
+    color: #000000;
+    font: 400;
+    margin-bottom: 70px;
+}
+
+.entreprise .container .description div {
+    color: #747474;
+    font: 19px;
+    margin: 40px 0px;
+}
+
+.entreprise .container .description .one,
+.two,
+.three {
+    color: #000000;
+    margin: 25px 0px;
+}
+
+.entreprise .container .description .two a {
+    color: #F29200;
+    text-decoration: none;
+}
+
+.entreprise .container .description button {
+    margin: 0px 0px;
+    padding: 18px 39px;
+    background-color: #F29200;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.entreprise .container .description button:hover {
+    background-color: #747474;
+    color: #000000;
+}
+
+.methode .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+/* .methode .container .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+
+  .block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    gap: 15px;
+}
+  
+
+.methode .container .img-mesurer {
+    background-image: url(./image/mesurer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 1px solid #F29200;
+}
+
+.methode .container .img-comprendre {
+    background-image: url(./image/comprendre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 1px solid #F29200;
+}
+
+.methode .container .img-decider {
+    background-image: url(./image/decide.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 1px solid #F29200;
+}
+
+.methodologie {
+    margin: 60px 0px;
+}
+
+.methodologie .container h3 {
+    font-size: 2rem ;
+    text-align: center;
+    align-items: center;
+    margin: 24px 24px;
+}
+
+   .methodologie .container .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    flex-grow: 5;
+} 
+.methodologie .container .wrapper .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    padding: 24px;
+    gap: 15px;
+}
+
+.methodologie .container .wrapper .item p {
+    letter-spacing: 0.05em;    
+}
+
+  .methodologie .container .item .img-internet {
+    background-image: url(./image/par-internet-80x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+
+.methodologie .container .item .img-geo{
+    background-image: url(./image/la-géolocalisation-150x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+
+.methodologie .container .item .img-observation {
+    background-image: url(./image/observation-directe-150x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+
+.methodologie .container .item .img-entretien {
+    background-image: url(./image/entretien-qualitatif-150x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+
+.methodologie .container .item .img-tel{
+    background-image: url(./image/par-téléphone-150x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+
+.methodologie .container .item .img-face {
+    background-image: url(./image/en-face-a-face-150x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+ 
+
+.image  {
+    
+    background-image: url(./image/rire.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image .usp h2 {
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+.categorie {
+    background-color:#EBEBEB ;
+}
+.categorie .container .ensemble{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    padding: 24px;
+    gap: 15px;
+}
+
+.categorie .container .ensemble ul li{
+list-style-type: none;
+color: #F29200;
+}
+
+.categorie .container .ensemble .img1 {
+    background-image: url(./image/expérience-client-et-consomateur-150x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+.categorie .container .ensemble .img2 {
+    background-image: url(./image/002-choice-150x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+.categorie .container .ensemble .img3 {
+    background-image: url(./image/image-de-marque-et-communications-150x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+.categorie .container .ensemble .img4 {
+    background-image: url(./image/innovation-et-cféation-dentreprises-150x150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #747474;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.partenaire .container .groupe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.partenaire .container h3 {
+    font-size: 2rem ;
+    text-align: center;
+    align-items: center;
+    margin: 24px 24px;
+}
+
+ .img-envol{
+    background-image: url(./image/envol.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+    /* border: 1px solid #F29200; */
+}
+ .img-ccib{
+    background-image: url(./image/images.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+    /* border: 1px solid #F29200; */
+}
+  .img-arkal{
+    background-image: url(./image/arkal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+    /* border: 1px solid #F29200; */
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: black;
+    color: #FFFFFF;
+}
+.footer .container nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+.footer .container nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer .container nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 12px;
+    color: #FFFFFF;
+}
